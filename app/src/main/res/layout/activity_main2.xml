@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Carta 2"
+        android:layout_gravity="bottom|center_horizontal"
+        android:textSize="40dp"
+        android:id="@+id/lbl12"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+
+            <ImageButton
+                android:id="@+id/gorrito2"
+                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:background="@drawable/gorrito"
+                />
+            <ImageButton
+                android:id="@+id/tapa1"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_height="60dp"
+                android:layout_width="60dp"
+                android:visibility="invisible"
+                android:background="@drawable/tapa"
+                />
+
+            <ImageButton
+                android:layout_toRightOf="@id/gorrito2"
+                android:id="@+id/sol2"
+                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:background="@drawable/sol"
+                />
+
+            <ImageButton
+                android:layout_toRightOf="@id/sol2"
+                android:id="@+id/soldado2"
+                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:background="@drawable/soldado"
+                />
+            <ImageButton
+                android:layout_toRightOf="@id/soldado2"
+                android:id="@+id/apache2"
+                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:background="@drawable/apache"
+                />
+
+
+
+
+            <ImageButton
+                android:layout_below="@id/soldado2"
+                android:id="@+id/arpa2"
+                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:background="@drawable/arpa"
+
+                />
+            <ImageButton
+                android:layout_toRightOf="@id/arpa2"
+                android:layout_below="@id/soldado2"
+                android:id="@+id/escalera2"
+                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:background="@drawable/escalera"
+                />
+            <ImageButton
+                android:layout_toRightOf="@id/escalera2"
+                android:layout_below="@id/soldado2"
+                android:id="@+id/pino2"
+                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:background="@drawable/pino"
+
+                />
+            <ImageButton
+                android:layout_toRightOf="@id/pino2"
+                android:layout_below="@id/soldado2"
+                android:id="@+id/rana2"
+                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:background="@drawable/rana"
+                />
+
+
+
+            <ImageButton
+                android:layout_below="@id/arpa2"
+                android:id="@+id/bandera2"
+                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:background="@drawable/bandera"
+
+                />
+            <ImageButton
+                android:layout_below="@id/arpa2"
+                android:layout_toRightOf="@id/bandera2"
+                android:id="@+id/calavera2"
+                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:background="@drawable/calavera"
+                />
+            <ImageButton
+                android:layout_below="@id/arpa2"
+                android:layout_toRightOf="@id/calavera2"
+                android:id="@+id/bota2"
+                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:background="@drawable/bota"
+                />
+            <ImageButton
+                android:layout_below="@id/arpa2"
+                android:layout_toRightOf="@id/bota2"
+                android:id="@+id/borracho2"
+                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:background="@drawable/borracho"
+
+                />
+
+
+
+            <ImageButton
+                android:layout_below="@id/bandera2"
+                android:id="@+id/sandolon2"
+                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:background="@drawable/sandolon"
+                />
+            <ImageButton
+                android:layout_below="@id/bandera2"
+                android:layout_toRightOf="@id/sandolon2"
+                android:id="@+id/barril2"
+                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:background="@drawable/barril"
+
+                />
+            <ImageButton
+                android:layout_below="@id/bandera2"
+                android:layout_toRightOf="@id/barril2"
+                android:id="@+id/mano2"
+                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:background="@drawable/mano"
+                />
+            <ImageButton
+                android:layout_below="@id/bandera2"
+                android:layout_toRightOf="@id/mano2"
+                android:id="@+id/maceta2"
+                android:layout_height="100dp"
+                android:layout_width="80dp"
+                android:background="@drawable/maceta"
+                />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/flechaizq2"
+        android:layout_width="65dp"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/izquierda"
+        />
+
+    <ImageButton
+
+        android:id="@+id/flechader2"
+        android:layout_width="65dp"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom|right"
+        android:background="@drawable/derecha"
+        />
+
+
+
+
+
+</FrameLayout>
